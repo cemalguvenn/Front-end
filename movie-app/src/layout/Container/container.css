@@ -1,0 +1,57 @@
+.container-fluid {
+  background-color: white;
+  width: 100%;
+  position: relative;
+  height: auto;
+  min-height: calc(100vh-80px);
+}
+
+.container-fluid .search {
+  position: absolute;
+  top: -40px;
+  z-index: 2;
+}
+
+.container-fluid .sr-only {
+  display: none !important;
+}
+
+.card {
+  height: 300px;
+  margin: 20px 50px;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+
+.card .img-skeleton {
+  height: 100%;
+}
+
+.card .card-body {
+  position: relative;
+  overflow-y: hidden;
+  height: 300px;
+}
+
+.card .card-body::-webkit-scrollbar {
+  width: 10px;
+}
+
+.card .card-body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.card .card-body::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.card .card-body::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.card .card-body:hover {
+  overflow-y: auto;
+}
+/*# sourceMappingURL=container.css.map */
